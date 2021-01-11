@@ -1,10 +1,7 @@
-import cv2, numpy, time, re, pyautogui
-import pygetwindow as gw
+import cv2, numpy, time, pyautogui
 from random import randint, uniform
 from util.adb import Adb
-from util.logger import Logger
-from datetime import datetime, timedelta
-from threading import Thread
+from datetime import datetime
 
 class Region(object):
     x, y, w, h = 0, 0, 0, 0
